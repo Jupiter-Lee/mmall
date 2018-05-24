@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63a580e1-b74a-4d72-ab82-d268c0c93656" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmall.iml" afterPath="$PROJECT_DIR$/mmall.iml" />
     </list>
     <ignored path="mmall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -225,8 +226,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
-    <option name="y" value="93" />
+    <option name="x" value="214" />
+    <option name="y" value="89" />
     <option name="width" value="1587" />
     <option name="height" value="961" />
   </component>
@@ -582,7 +583,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mmall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mmall_tomcat_2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1344,12 +1345,12 @@
       <workItem from="1526994151611" duration="4076000" />
       <workItem from="1527081416161" duration="7603000" />
       <workItem from="1527166851990" duration="1808000" />
-      <workItem from="1527169260358" duration="2183000" />
+      <workItem from="1527169260358" duration="2504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110603000" />
+    <option name="totallyTimeSpent" value="110924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1361,7 +1362,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="93" width="1587" height="961" extended-state="1" />
+    <frame x="214" y="89" width="1587" height="961" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1757,6 +1758,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
