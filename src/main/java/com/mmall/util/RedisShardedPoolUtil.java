@@ -126,6 +126,7 @@ public class RedisShardedPoolUtil {
     }
 
 
+
     public static void main(String[] args) {
         ShardedJedis jedis = RedisShardedPool.getJedis();
 
