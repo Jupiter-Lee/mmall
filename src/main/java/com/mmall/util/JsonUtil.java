@@ -103,60 +103,59 @@ public class JsonUtil {
         TestPojo testPojo = new TestPojo();
         String testPojoJson = JsonUtil.obj2StringPretty(testPojo);
         log.info("testPojoJson:{}",testPojoJson);
-//        TestPojo testPojo = new TestPojo();
-//        testPojo.setName("Geely");
-//        testPojo.setId(666);
+        testPojo.setName("Geely");
+        testPojo.setId(666);
 
-        //{"name":"Geely","id":666}
-//        String json = "{\"name\":\"Geely\",\"color\":\"blue\",\"id\":666}";
-//        TestPojo testPojoObject = JsonUtil.string2Obj(json,TestPojo.class);
-//        String testPojoJson = JsonUtil.obj2String(testPojo);
-//        log.info("testPojoJson:{}",testPojoJson);
+//        {"name":"Geely","id":666}
+        String json = "{\"name\":\"Geely\",\"color\":\"blue\",\"id\":666}";
+        TestPojo testPojoObject = JsonUtil.string2Obj(json,TestPojo.class);
 
-//        log.info("end");
+        log.info("end");
 
-//        User u1 = new User();
-//        u1.setId(2);
-//        u1.setEmail("geely@happymmall.com");
-//        u1.setCreateTime(new Date());
-//        String userJsonPretty = JsonUtil.obj2StringPretty(u1);
-//        log.info("userJson:{}",userJsonPretty);
-//
-//
-//        User u2 = new User();
-//        u2.setId(2);
-//        u2.setEmail("geelyu2@happymmall.com");
-//
-//
-//
-//        String user1Json = JsonUtil.obj2String(u1);
-//
-//        String user1JsonPretty = JsonUtil.obj2StringPretty(u1);
-//
-//        log.info("user1Json:{}",user1Json);
-//
-//        log.info("user1JsonPretty:{}",user1JsonPretty);
-//
-//
-//        User user = JsonUtil.string2Obj(user1Json,User.class);
+        User u1 = new User();
+        u1.setId(1);
+        u1.setEmail("geely@happymmall.com");
+        u1.setCreateTime(new Date());
+        String userJson = JsonUtil.obj2String(u1);
+        String userJsonPretty = JsonUtil.obj2StringPretty(u1);
+        log.info("userJson{}",userJson);
+        log.info("userJsonPretty:{}",userJsonPretty);
 
 
-//        List<User> userList = Lists.newArrayList();
-//        userList.add(u1);
-//        userList.add(u2);
-//
-//        String userListStr = JsonUtil.obj2StringPretty(userList);
-//
-//        log.info("==================");
-//
-//        log.info(userListStr);
-//
-//
-//        List<User> userListObj1 = JsonUtil.string2Obj(userListStr, new TypeReference<List<User>>() {
-//        });
-//
-//
-//        List<User> userListObj2 = JsonUtil.string2Obj(userListStr,List.class,User.class);
+        User u2 = new User();
+        u2.setId(2);
+        u2.setEmail("geelyu2@happymmall.com");
+
+
+
+        String user1Json = JsonUtil.obj2String(u1);
+
+        String user1JsonPretty = JsonUtil.obj2StringPretty(u1);
+
+        log.info("user1Json:{}",user1Json);
+
+        log.info("user1JsonPretty:{}",user1JsonPretty);
+
+
+        User user = JsonUtil.string2Obj(user1Json,User.class);
+
+
+        List<User> userList = Lists.newArrayList();
+        userList.add(u1);
+        userList.add(u2);
+
+        String userListStr = JsonUtil.obj2StringPretty(userList);
+
+        log.info("==================");
+
+        log.info(userListStr);
+
+
+        List<User> userListObj1 = JsonUtil.string2Obj(userListStr, new TypeReference<List<User>>() {
+        });
+
+
+        List<User> userListObj2 = JsonUtil.string2Obj(userListStr,List.class,User.class);
 
         System.out.println("end");
 

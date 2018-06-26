@@ -1,0 +1,51 @@
+[13:44:11.811][ERROR][com.mmall.util.RedisShardedPoolUtil][main] get key:null error
+java.lang.NullPointerException: null
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1283) ~[na:1.8.0_151]
+	at java.util.regex.Matcher.reset(Matcher.java:309) ~[na:1.8.0_151]
+	at java.util.regex.Matcher.<init>(Matcher.java:229) ~[na:1.8.0_151]
+	at java.util.regex.Pattern.matcher(Pattern.java:1093) ~[na:1.8.0_151]
+	at redis.clients.util.Sharded.getKeyTag(Sharded.java:104) ~[jedis-2.6.0.jar:na]
+	at redis.clients.util.Sharded.getShardInfo(Sharded.java:90) ~[jedis-2.6.0.jar:na]
+	at redis.clients.util.Sharded.getShard(Sharded.java:78) ~[jedis-2.6.0.jar:na]
+	at redis.clients.jedis.ShardedJedis.get(ShardedJedis.java:50) ~[jedis-2.6.0.jar:na]
+	at com.mmall.util.RedisShardedPoolUtil.get(RedisShardedPoolUtil.java:87) ~[classes/:na]
+	at com.mmall.util.RedisPoolUtil.main(RedisPoolUtil.java:110) [classes/:na]
+[18:01:38.152][INFO][com.mmall.util.JsonUtil][main] userJson{"id":2,"username":null,"password":null,"email":"geely@happymmall.com","phone":null,"question":null,"answer":null,"role":null,"createTime":"2018-06-24 18:01:37","updateTime":null}
+[18:01:38.159][INFO][com.mmall.util.JsonUtil][main] userJsonPretty:{
+  "id" : 2,
+  "username" : null,
+  "password" : null,
+  "email" : "geely@happymmall.com",
+  "phone" : null,
+  "question" : null,
+  "answer" : null,
+  "role" : null,
+  "createTime" : "2018-06-24 18:01:37",
+  "updateTime" : null
+}
+[18:05:12.544][INFO][com.mmall.util.JsonUtil][main] userJson{"id":2,"username":null,"password":null,"email":"geely@happymmall.com","phone":null,"question":null,"answer":null,"role":null,"createTime":"2018-06-24 18:05:12","updateTime":null}
+[18:05:12.550][INFO][com.mmall.util.JsonUtil][main] userJsonPretty:{
+  "id" : 2,
+  "username" : null,
+  "password" : null,
+  "email" : "geely@happymmall.com",
+  "phone" : null,
+  "question" : null,
+  "answer" : null,
+  "role" : null,
+  "createTime" : "2018-06-24 18:05:12",
+  "updateTime" : null
+}
+[18:05:12.550][INFO][com.mmall.util.JsonUtil][main] user1Json:{"id":2,"username":null,"password":null,"email":"geely@happymmall.com","phone":null,"question":null,"answer":null,"role":null,"createTime":"2018-06-24 18:05:12","updateTime":null}
+[18:05:12.550][INFO][com.mmall.util.JsonUtil][main] user1JsonPretty:{
+  "id" : 2,
+  "username" : null,
+  "password" : null,
+  "email" : "geely@happymmall.com",
+  "phone" : null,
+  "question" : null,
+  "answer" : null,
+  "role" : null,
+  "createTime" : "2018-06-24 18:05:12",
+  "updateTime" : null
+}

@@ -41,6 +41,8 @@ public class CloseOrderTask {
         log.info("关闭订单定时任务结束");
     }
 
+
+
     private void closeOrder(String lockName){
         RedisShardedPoolUtil.expire(lockName,50);//有效期50秒，防止死锁
         log.info("获取{},ThreadName:{}",Const.REDIS_LOCK.CLOSE_ORDER_TASK_LOCK,Thread.currentThread().getName());
