@@ -1,1 +1,2 @@
 lixukai's project
+.idea
