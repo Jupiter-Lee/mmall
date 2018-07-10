@@ -1,0 +1,12 @@
+[00:22:27.488][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-11] ==>  Preparing: select count(1) from mmall_user where username = ? 
+[00:22:27.491][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-11] ==> Parameters: iron(String)
+[00:22:27.492][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-11] <==      Total: 1
+[00:22:27.493][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-11] ==>  Preparing: SELECT -- *???//这样真的好么?答案就是,这样不好. id, username, password, email, phone, question, answer, role, create_time, update_time from mmall_user where username = ? and password = ? 
+[00:22:27.494][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-11] ==> Parameters: iron(String), CDA2BF8958B67BA8D86CD4E70504FD7E(String)
+[00:22:27.495][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-11] <==      Total: 1
+[00:24:59.332][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-8] ==>  Preparing: select count(1) from mmall_user where username = ? 
+[00:24:59.333][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-8] ==> Parameters: iron(String)
+[00:24:59.333][DEBUG][com.mmall.dao.UserMapper.checkUsername][http-bio-8080-exec-8] <==      Total: 1
+[00:24:59.334][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-8] ==>  Preparing: SELECT -- *???//这样真的好么?答案就是,这样不好. id, username, password, email, phone, question, answer, role, create_time, update_time from mmall_user where username = ? and password = ? 
+[00:24:59.335][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-8] ==> Parameters: iron(String), CDA2BF8958B67BA8D86CD4E70504FD7E(String)
+[00:24:59.336][DEBUG][com.mmall.dao.UserMapper.selectLogin][http-bio-8080-exec-8] <==      Total: 1
